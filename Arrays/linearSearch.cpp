@@ -12,9 +12,9 @@ int linearSearch(int arr[],int siz,int target){
 }
 
 int main(){
-    int arr[] = {5,6,7,3,8,6,7};
+    int arr[] = {5,6,7,3,8,2,7};
     int siz = 7;
-    int target = 8;
+    int target = 2;
     cout << linearSearch(arr,siz,target)<< endl;
     return 0;
 }
